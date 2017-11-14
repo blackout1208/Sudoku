@@ -1,0 +1,21 @@
+{
+  "name": "sudokuapi",
+  "version": "1.0.0",
+  "description": "sudoku servicesAPI",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1",
+    "sudoku": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Carlos Duarte",
+  "license": "ISC"
+}

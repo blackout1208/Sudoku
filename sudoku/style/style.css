@@ -1,0 +1,36 @@
+html{
+    margin: 50px auto;
+    width: 990px;
+}
+ul{
+    padding:0;
+}
+input[type="button"]{
+    background-color: #87b2db;
+    margin:10px;
+    border-radius: 10px;
+}
+
+.RowLimit{
+    border-bottom:2px solid #f00;
+}
+.ColumnLimit{
+    border-right:2px solid #f00;
+}
+input[type="number"]{
+    border: 1px solid #000000;
+    background-color: #eeeeee;
+    width:40px;
+    height:40px;
+    cursor: text;
+    text-align: center;
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"]:hover{
+    background-color: #8d8b8b;
+}
+
+.Closed{
+    background-color: #91f07e !important;
+}

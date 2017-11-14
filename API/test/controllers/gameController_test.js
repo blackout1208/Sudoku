@@ -115,4 +115,17 @@ describe('Sudoku Controller', () => {
                 console.log("Error: " + err.message);
             });
     });
+
+    it('Loads all games: /sudoku/listgames', done => {
+        Request(App)
+            .post('/sudoku/listgames')
+            .end((err, response) => {
+                console.log(response.body);
+                Assert(response.body.obj !== undefined);
+                done();
+            })
+            .on("error", (err) => {
+                console.log("Error: " + err.message);
+            });
+    });
 });

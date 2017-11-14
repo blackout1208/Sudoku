@@ -10,4 +10,5 @@ module.exports = (app) => {
     app.post('/sudoku/hint/:id', GameController.hint);
     app.post('/sudoku/save', GameController.save);
     app.get('/sudoku/load/:id', GameController.load);
+    app.post('/sudoku/listgames', GameController.savedGames);
 };
